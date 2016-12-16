@@ -45,7 +45,6 @@ resourcestring
 
 const
   ExtToAccept: array[0..3] of string = ('.txt', '.pas', '.dfm', '.sql');
-  //SymbolsToIgnore: array[0..4] of Integer = ($09, $0C, $0D, $20, $27);
   SqlMainWords: array[0..3] of string = ('SELECT', 'INSERT', 'UPDATE', 'DELETE');
 
 
@@ -182,16 +181,6 @@ begin
       Break;
     end;
   end;
-
-  //for i := Low(ExtToAccept) to High(ExtToAccept) do
-  //begin
-  //  // Se encontrar uma correspondente, sai.
-  //  if ExtToAccept[i] = LowerCase(Ext) then
-  //  begin
-  //    Result := True;
-  //    Break;
-  //  end;
-  //end;
 end;
 
 end.
