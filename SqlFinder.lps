@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="4">
+      <Unit0>
+        <Filename Value="SqlFinder.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="10" Y="12"/>
+        <UsageCount Value="53"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="23"/>
+        <CursorPos X="32" Y="39"/>
+        <UsageCount Value="53"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="finder.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Finder"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="127"/>
+        <CursorPos X="36" Y="137"/>
+        <UsageCount Value="53"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\fpc\3.0.0\source\rtl\objpas\sysutils\sysutilh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="27"/>
+        <CursorPos X="16" Y="41"/>
+        <UsageCount Value="7"/>
+      </Unit3>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="-1"/>
+    </General>
+    <JumpHistory HistoryIndex="-1"/>
+  </ProjectSession>
+  <Debugging>
+    <Watches Count="5">
+      <Item1 ClassAutoCast="True">
+        <Expression Value="m_CurrentLine"/>
+      </Item1>
+      <Item2 ClassAutoCast="True">
+        <Expression Value="m_CurrentWord"/>
+      </Item2>
+      <Item3>
+        <Expression Value="m_LastSymbol"/>
+      </Item3>
+      <Item4>
+        <Expression Value="tempStr"/>
+      </Item4>
+      <Item5 ClassAutoCast="True">
+        <Expression Value="curWord"/>
+      </Item5>
+    </Watches>
+  </Debugging>
+</CONFIG>
